@@ -1,0 +1,27 @@
+Package: odsProcessing
+Title: Processes ODS XML files
+Version: 0.0.0.9000
+Authors@R: 
+    person("Tom", "Jemmett", , "thomas.jemmett@nhs.net", role = c("aut", "cre"))
+Description: Downloads the latest ODS XML file from TRUD and converts into flat files.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    dplyr,
+    furrr,
+    future,
+    httr,
+    janitor,
+    jsonlite,
+    lubridate,
+    purrr,
+    readr,
+    rlang,
+    stringr,
+    tibble,
+    tidyr,
+    withr,
+    xml2

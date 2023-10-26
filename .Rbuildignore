@@ -1,0 +1,5 @@
+^ods\.Rproj$
+^\.Rproj\.user$
+^LICENSE\.md$
+
+outputs/
